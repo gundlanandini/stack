@@ -1,0 +1,59 @@
+
+/* h2{
+    border-radius: 10px;
+    border: 1px solid chocolate;
+    font-size: larger;
+    text-align: center;
+    background-color:antiquewhite;
+}
+img{
+    height: 200px;
+    width: 200px; */
+
+ 
+
+/* / *{
+    color:brown;
+}  */ 
+  
+
+
+ 
+
+
+ /* .card-header{
+    display: flex; 
+     text-align: center; 
+     width: 100px;
+    height: 100px;
+    border: 3px solid blue;
+    color: brown; 
+ 
+ } */
+    
+.card-image{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+
+}
+.content{
+    color:blueviolet;
+    text-align: center;
+}
+
+.main{
+    border: 3px solid blue;
+     text-align: center; 
+}  
+     @media  (min-width: 600px) {
+        .main {
+            display: flex;
+          background-color: lightgreen;
+          flex-direction: row;
+        }
+      } 
+   
+ 
+
+

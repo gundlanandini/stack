@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * h2{
+            color: aqua;
+        } 
+        * #header{
+            color: blueviolet;
+        } 
+        * .space{
+            color:brown;
+        }
+        h3{
+            border:2px;
+            border-style:dashed;
+            color: plum;
+            padding: 20px;
+        }
+        .heading1{
+            height: 50px;
+            width:50px;
+            border-style:solid;
+            align-self: center;
+            order:0;
+        }
+        .heading2{
+            height: 50px;
+            width:50px;
+            border-style:solid;
+            align-self: flex-end;
+            order:-1;
+        }
+        .heading3{
+            height: 50px;
+            width:50px;
+            border-style:solid;
+            align-self: flex-end;
+            order:1;
+        }
+
+        /* .main{
+            display: flex;
+            flex-direction:row;
+            justify-content:start;
+            height: 100vh; */
+        
+        .step{
+            display: flex;
+            flex-direction:column;
+           justify-content:end;
+           align-items: center;
+          
+        }
+         
+        </style>
+</head>
+<body>
+    <div>
+        <h1>select gender</h1>
+        <label>male</label>
+        <input type="radio"/>
+        <label>female</label>
+        <input type="radio"/>
+        <input type="text" placeholder="enter your name"/>
+    </div>
+    <div>
+        <select>
+            <option>select year</option>
+             <option>1 year</option>
+            <option>2 year</option>
+            <option>3 year</option>
+        </select>
+ </div>
+ <div>
+    <label>selectfield</label>
+    <input type="checkbox"/>
+ </div>
+ <div>
+    <h2>anurag engineering college</h2>
+    <h2 id="header" class="space">ece</h2>
+ </div>
+ <div>
+    <h3>gundla nandini</h3>
+ </div>
+ <!-- <div class="main" >
+    <h1 class="heading1">1</h1>
+     <h1 class="heading2">2</h1>
+     <h1 class="heading3">3</h1>
+ </div> -->
+<div
+    class="step">
+    <h1 class="heading1">1</h1>
+     <h1 class="heading2">2</h1>
+     <h1 class="heading3">3</h1>
+</div>
+   
+    
+ 
+</body>
+</html>
